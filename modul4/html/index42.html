@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+    .parent{
+        position: relative;
+       background: olivedrab;
+       height: 100px;
+       width: 1200px;
+       margin: 0 auto;
+        
+    }
+
+    .box1{
+        position: fixed;
+        top: 30px;
+        left: 30px;
+        background: mediumvioletred;
+        z-index: 2;
+    }
+
+    .box2{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        background: orange;
+        z-index: 1;
+    }
+
+    .menu{
+        margin: 100px;
+    }
+
+    .menu li{
+        float: left;
+        border: 1px solid red;
+        margin: 0 20px;
+        list-style: none;
+    }
+
+    .menu a{
+        color: black;
+    }
+
+    .active{
+        position: relative;
+        top: 5px;
+        left: 10px;
+    }
+    </style>
+
+</head>
+<body>
+    
+        <ul class="menu">
+            <li><a href="#">Пункт 1</a></li>
+            <li><a href="#">Пункт 2</a></li>
+            <li class="active"><a href="#">Пункт 3</a></li>
+            <li><a href="#">Пункт 4</a></li>
+            <li><a href="#">Пункт 5</a></li>
+        </ul>   
+
+
+   <!-- <div class="parent">
+
+            <div class="box1">
+                Lorem </div>
+
+            <div class="box2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, laboriosam. Dolor suscipit rerum, nemo magni libero expedita distinctio quo temporibus sunt adipisci corrupti repudiandae, deserunt ad earum, cum reprehenderit atque.
+            </div>
+
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sint dicta, similique voluptates consectetur aspernatur explicabo officia molestiae tenetur, aliquam nulla a exercitationem, possimus rerum perspiciatis et cupiditate autem odit?    
+        </p> </div>
+    -->
+</body>
+</html>

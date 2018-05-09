@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .header{
+            background-color: gray;
+        }
+
+        .sidebar{
+            background-color: green;
+            float: left;
+            width: 30%;
+        }
+
+        .content{
+            background-color: yellow;
+            float: left;
+            width: 60%;
+        }
+
+        .news{
+            float: right;
+            background-color: black;
+            color: white;
+            width: 20%;
+        }
+
+        .conteiner{
+               /* position: relative;
+                overflow: hidden;*/
+        }
+
+        .clearfix:after{
+                content: '';
+                clear: both;
+                display: block;
+        }
+
+        .footer{
+           /* clear: both; */
+            background-color: red;
+           
+        }
+
+        .menu{
+            background: peru;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .menu li{
+                float: left;
+                list-style:none;
+                padding: 5px;
+                margin: 5 px;
+                border: 1 px solid rgb(26, 226, 76);
+        }
+
+        menu a{
+            color: pink;
+        }
+
+
+
+    </style>
+</head>
+<body>
+   <ul class="menu"></ul>
+  <li><a href="#">Пункт1</a></li>
+  <li><a href="#">Пункт2</a></li>
+  <li><a href="#">Пункт3</a></li>
+  <li><a href="#">Пункт4</a></li>
+  <li><a href="#">Пункт5</a></li>
+
+
+  <!--<div class="header">HEADER</div> -->
+
+  <div class="container clearfix">
+  <div class="sidebar">SIDEBAR</div>
+  <div class="news">NEWS</div>
+  <div class="content">CONTENT</div>
+ 
+  <div class="footer">FOOTER</div> 
+</div>
+</html>
