@@ -1,0 +1,29 @@
+
+
+.class{
+    float: left;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    color: #000;
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+}
+
+.rgb{
+    background-color: rgb(255, 0,0);
+}
+
+.rgb{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.hex{
+    background-color: #0000ff;
+    opacity: 0.5;
+}
+
+.hsl{
+    background-color: hsl( 0, 100%, 50%);
+}
